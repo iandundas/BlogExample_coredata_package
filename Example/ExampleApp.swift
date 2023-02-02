@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Persistence
 
 @main
 struct ExampleApp: App {

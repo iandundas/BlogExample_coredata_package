@@ -14,6 +14,7 @@
 		3C880510298BF22500CC83A9 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88050F298BF22500CC83A9 /* ExampleTests.swift */; };
 		3C88051A298BF22500CC83A9 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C880519298BF22500CC83A9 /* ExampleUITests.swift */; };
 		3C88051C298BF22500CC83A9 /* ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88051B298BF22500CC83A9 /* ExampleUITestsLaunchTests.swift */; };
+		3C88052B298BF7ED00CC83A9 /* Persistence in Frameworks */ = {isa = PBXBuildFile; productRef = 3C88052A298BF7ED00CC83A9 /* Persistence */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C88052B298BF7ED00CC83A9 /* Persistence in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,7 @@
 				3C88050E298BF22500CC83A9 /* ExampleTests */,
 				3C880518298BF22500CC83A9 /* ExampleUITests */,
 				3C8804F6298BF22400CC83A9 /* Products */,
+				3C880529298BF7ED00CC83A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +134,13 @@
 			path = ExampleUITests;
 			sourceTree = "<group>";
 		};
+		3C880529298BF7ED00CC83A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +157,9 @@
 			dependencies = (
 			);
 			name = Example;
+			packageProductDependencies = (
+				3C88052A298BF7ED00CC83A9 /* Persistence */,
+			);
 			productName = Example;
 			productReference = 3C8804F5298BF22400CC83A9 /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -606,6 +619,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C88052A298BF7ED00CC83A9 /* Persistence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Persistence;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C8804ED298BF22300CC83A9 /* Project object */;
 }
